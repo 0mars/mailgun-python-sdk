@@ -2,7 +2,7 @@
 
 
 install:
-	. venv/bin/activate; pip install .
+	poetry install --no-dev
 
 test-install: install
 	poetry install
